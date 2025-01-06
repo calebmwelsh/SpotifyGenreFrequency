@@ -33,7 +33,7 @@ This section will walk you through the steps to set up a Spotify Developer Dashb
 4. Fill in the necessary details for your app, including:
    - **App Name**: The name of your application.
    - **App Description**: A short description of what your app does.
-   - **Redirect URI**: The URI to which the user will be redirected after authentication. This is important for OAuth integration.
+   - **Redirect URI**: The URI to which the user will be redirected after authentication. This is important for OAuth integration. (http://localhost:8888/callback should work fine)
    - **App Privacy Policy URL**: Optional, but recommended for production applications.
 
 5. Agree to the Spotify Developer Terms and click **Create**.
