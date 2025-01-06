@@ -57,7 +57,7 @@ Spotify APIs use OAuth 2.0 for authentication. To get started:
 ## Repo Installation
 
 1. Clone the repository:
-git clone https://github.com/calebmwelsh/spotify-genre-analyzer.git
+git clone [https://github.com/calebmwelsh/spotify-genre-analyzer.git](https://github.com/calebmwelsh/SpotifyGenreFrequency)
 cd spotify-genre-analyzer
 
 2. Install dependencies:
