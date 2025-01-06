@@ -57,8 +57,8 @@ Spotify APIs use OAuth 2.0 for authentication. To get started:
 ## Repo Installation
 
 1. Clone the repository:
-git clone [https://github.com/calebmwelsh/spotify-genre-analyzer.git](https://github.com/calebmwelsh/SpotifyGenreFrequency)
-cd spotify-genre-analyzer
+git clone [https://github.com/calebmwelsh/SpotifyGenreFrequency.git](https://github.com/calebmwelsh/SpotifyGenreFrequency)
+cd SpotifyGenreFrequency
 
 2. Install dependencies:
 pip install -r requirements.txt
@@ -77,7 +77,7 @@ pip install -r requirements.txt
 
 1. Replace `playlist_uri` in the script with your target playlist URI
 2. Run the script:
-python spotify_genre_analyzer.py
+python Genres.py
 
 ## Example Output
 
@@ -93,8 +93,8 @@ Jazz: 5
 
 ## Project Structure
 
-spotify-genre-analyzer/
-├── Genre.py
+SpotifyGenreFrequency
+├── Genres.py
 ├── UserGenre.py
 ├── requirements.txt
 ├── settings.toml
