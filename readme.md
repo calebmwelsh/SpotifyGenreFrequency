@@ -93,12 +93,13 @@ Jazz: 5
 
 ## Project Structure
 
-SpotifyGenreFrequency
-├── Genres.py
-├── UserGenre.py
-├── requirements.txt
-├── settings.toml
-└── .cache
+SpotifyGenreFrequency  
+├── Genres.py  
+├── UserGenre.py  
+├── requirements.txt  
+└── utils/
+    ├── settings.toml  
+    └── .config.template.toml
 
 ## License
 
