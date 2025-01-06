@@ -6,3 +6,5 @@ SpotifyClientSecret =  { optional = false, default = "abcdabcdabcd123123123", ex
 
 SpotifyRedirectURI = { optional = false, default = "http://localhost:8888/callback", explanation = "Client Callback URI for Spotify Project. Default: 'http://localhost:8888/callback'", example = "http://localhost:8888/callback" } 
 
+SpotifyPublicPlaylistURI = { optional = true, default = "https://open.spotify.com/playlist/1NMBntrpcYybqbthT3eapO?nd=1&dlsi=bc53f01f7fdc4b2c", explanation = "Public Playlist URI for PublicGenres.py. Default: 'https://open.spotify.com/playlist/1NMBntrpcYybqbthT3eapO?nd=1&dlsi=bc53f01f7fdc4b2c'", example = "https://open.spotify.com/playlist/1NMBntrpcYybqbthT3eapO?nd=1&dlsi=bc53f01f7fdc4b2c" } 
+

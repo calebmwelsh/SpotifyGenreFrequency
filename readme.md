@@ -71,13 +71,36 @@ pip install -r requirements.txt
   SpotifyClientID = "your_client_id"
   SpotifyClientSecret = "your_client_secret"
   SpotifyRedirectURI = "your_redirect_uri"
+  SpotifyPublicPlaylistURI = "a_public_playlist_uri"
   ```
 
 ## Usage
 
-1. Replace `playlist_uri` in the script with your target playlist URI  
-2. Run the script:  
-python Genres.py
+This project includes two main scripts for analyzing the frequency of music genres based on a user's playlist:
+
+### 1. `PublicGenres.py` - Using Public Playlists
+
+The `PublicGenres.py` script allows you to analyze the genre frequency of a **public playlist**. It can identify the frequency of genres based on the tracks from any user using the Spotify Web API. However two conditions must be met.
+
+- Their playlists must be public
+- Need the URI of one of the public playlists
+
+### 2. `PrivateGenres.py` - Using private Playlists
+
+The `PrivateGenres.py` script allows you to analyze the genre frequency of a **private playlist**. It can identify the genres of tracks from your private playlists by using the Spotify Web API.
+
+#### How to Use:
+1. Ensure that you have your Spotify **Client ID**, **Client Secret**, and **RedirectURI** set up properly (see the [Setup Instructions](#setup)).
+2. In `PublicGenres.py`, provide the **public playlist URI** you want to analyze in the TOML config.
+3. Run the script to retrieve the genre frequency for the tracks in the public or private playlist.
+
+```bash
+python PublicGenres.py 
+```
+or
+```bash
+python PrivateGenres.py 
+```
 
 ## Example Output
 
@@ -98,8 +121,8 @@ SpotifyGenreFrequency
 ├── UserGenre.py  
 ├── requirements.txt  
 └── utils/  
-   ├── settings.toml   
-   └── .config.template.toml  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── settings.toml   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; └── .config.template.toml  
 
 ## License
 

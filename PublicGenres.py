@@ -13,6 +13,7 @@ CACHE_FILE = ".cache"
 CLIENT_ID = settings.config["General"]["SpotifyClientID"]
 CLIENT_SECRET = settings.config["General"]["SpotifyClientSecret"]
 REDIRECT_URI = settings.config["General"]["SpotifyRedirectURI"]
+PUBLIC_PLAYLIST_URI = settings.config["General"]["SpotifyPublicPlaylistURI"]
 
 # Define the scope for accessing liked songs
 SCOPE = "user-library-read user-read-private user-read-playback-state playlist-read-private"
@@ -145,8 +146,7 @@ def get_user_id_from_playlist_uri(playlist_uri):
     return user_id
 
 # Get spotify user id based on playlist uri
-playlist_uri = "https://open.spotify.com/playlist/1NMBntrpcYybqbthT3eapO?nd=1&dlsi=a8d1d2fe9b8447a4"  # Replace with the actual URI
-user_id = get_user_id_from_playlist_uri(playlist_uri)
+user_id = get_user_id_from_playlist_uri(PUBLIC_PLAYLIST_URI)
 print(f"The user ID for the playlist is: {user_id}")
 
 display_user_playlist_genres(user_id)
