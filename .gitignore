@@ -1,0 +1,14 @@
+# Ignore cache and configuration files
+config.toml
+.cache
+
+# Ignore YAML files (genre frequency data)
+*.yaml
+
+# Ignore ToDo.txt file
+ToDo.txt
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo

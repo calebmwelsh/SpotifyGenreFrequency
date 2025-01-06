@@ -1,0 +1,8 @@
+[General]
+
+SpotifyClientID =  { optional = false, default = "abcdabcdabcd123123123", explanation = "Client ID for Spotify Project. Default: 'abcdabcdabcd123123123'", example = "abcdabcdabcd123123123" } 
+
+SpotifyClientSecret =  { optional = false, default = "abcdabcdabcd123123123", explanation = "Client Secret for Spotify Project. Default: 'abcdabcdabcd123123123'", example = "abcdabcdabcd123123123" } 
+
+SpotifyRedirectURI = { optional = false, default = "http://localhost:8888/callback", explanation = "Client Callback URI for Spotify Project. Default: 'http://localhost:8888/callback'", example = "http://localhost:8888/callback" } 
+
