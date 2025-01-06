@@ -1,7 +1,7 @@
 # Ignore cache and configuration files
 config.toml
 .cache
-filfil_reqs.py
+fulfil_reqs.py
 test.py
 
 # Ignore YAML files (genre frequency data)
