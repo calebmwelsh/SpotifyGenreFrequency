@@ -57,7 +57,7 @@ Spotify APIs use OAuth 2.0 for authentication. To get started:
 ## Repo Installation
 
 1. Clone the repository:
-git clone [https://github.com/calebmwelsh/SpotifyGenreFrequency.git](https://github.com/calebmwelsh/SpotifyGenreFrequency)
+git clone [https://github.com/calebmwelsh/SpotifyGenreFrequency.git](https://github.com/calebmwelsh/SpotifyGenreFrequency)  
 cd SpotifyGenreFrequency
 
 2. Install dependencies:
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 3. Set up Spotify credentials:
 - Create a Spotify Developer App
-- Add credentials to `settings.toml`:
+- Add credentials to `settings.toml`:  
   ```
   [General]
   SpotifyClientID = "your_client_id"
@@ -75,21 +75,21 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. Replace `playlist_uri` in the script with your target playlist URI
-2. Run the script:
+1. Replace `playlist_uri` in the script with your target playlist URI  
+2. Run the script:  
 python Genres.py
 
 ## Example Output
 
-Processing playlist: My Favorite Playlist
-Processing song: Song Name - Artist Name
-...
-Genre Frequencies:
-Pop: 25
-Rock: 15
-Hip-Hop: 10
-Jazz: 5
-...
+Processing playlist: My Favorite Playlist  
+Processing song: Song Name - Artist Name  
+...  
+Genre Frequencies:  
+Pop: 25  
+Rock: 15  
+Hip-Hop: 10  
+Jazz: 5  
+...  
 
 ## Project Structure
 
@@ -97,9 +97,9 @@ SpotifyGenreFrequency
 ├── Genres.py  
 ├── UserGenre.py  
 ├── requirements.txt  
-└── utils/
-    ├── settings.toml  
-    └── .config.template.toml
+└── utils/  
+   ├── settings.toml   
+   └── .config.template.toml  
 
 ## License
 
