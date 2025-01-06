@@ -57,15 +57,17 @@ Spotify APIs use OAuth 2.0 for authentication. To get started:
 ## Repo Installation
 
 1. Clone the repository:
-git clone [https://github.com/calebmwelsh/SpotifyGenreFrequency.git](https://github.com/calebmwelsh/SpotifyGenreFrequency)  
+```bash
+git clone https://github.com/calebmwelsh/SpotifyGenreFrequency
 cd SpotifyGenreFrequency
+```
 
 2. Install dependencies:
 pip install -r requirements.txt
 
 3. Set up Spotify credentials:
 - Create a Spotify Developer App
-- Add credentials to `settings.toml`:  
+- Add credentials to `config.toml`:  
   ```
   [General]
   SpotifyClientID = "your_client_id"
@@ -101,6 +103,7 @@ or
 ```bash
 python PrivateGenres.py 
 ```
+4. OAuth2 will trigger through your browser, authenticate by allowing the project.
 
 ## Example Output
 
