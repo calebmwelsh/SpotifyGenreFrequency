@@ -89,7 +89,7 @@ The `PublicGenres.py` script allows you to analyze the genre frequency of a **pu
 The `PrivateGenres.py` script allows you to analyze the genre frequency of a **private playlist**. It can identify the genres of tracks from your private playlists by using the Spotify Web API.
 
 #### How to Use:
-1. Ensure that you have your Spotify **Client ID**, **Client Secret**, and **RedirectURI** set up properly (see the [Setup Instructions](#setup)).
+1. Ensure that you have your Spotify **Client ID**, **Client Secret**, and **RedirectURI** set up properly.
 2. In `PublicGenres.py`, provide the **public playlist URI** you want to analyze in the TOML config.
 3. Run the script to retrieve the genre frequency for the tracks in the public or private playlist.
 
