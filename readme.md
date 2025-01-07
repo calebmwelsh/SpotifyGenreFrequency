@@ -64,7 +64,7 @@ cd SpotifyGenreFrequency
 2. Install dependencies:
 pip install -r requirements.txt
 
-3. Set up Spotify credentials in `config.toml`:  
+3. Set up Spotify credentials in `config.toml.temp`:  
 ```
 [General]
 SpotifyClientID = "your_client_id"
@@ -72,6 +72,8 @@ SpotifyClientSecret = "your_client_secret"
 SpotifyRedirectURI = "your_redirect_uri"
 SpotifyPublicPlaylistURI = "a_public_playlist_uri"
 ```
+
+4. Remove `.temp` from `config.toml.temp`
 
 ## Usage
 

@@ -1,0 +1,5 @@
+[General]
+SpotifyClientID = "your_client_id"
+SpotifyClientSecret = "your_client_secret"
+SpotifyRedirectURI = "your_redirect_uri"
+SpotifyPublicPlaylistURI = "a_public_playlist_uri"
