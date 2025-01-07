@@ -119,8 +119,8 @@ Jazz: 5
 ## Project Structure
 
 SpotifyGenreFrequency  
-├── Genres.py  
-├── UserGenre.py  
+├── PrivateGenres.py  
+├── PublicGenres.py  
 ├── requirements.txt  
 └── utils/  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ├── settings.toml   
